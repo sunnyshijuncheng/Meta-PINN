@@ -1,4 +1,4 @@
-![LOGO](https://github.com/sunnyshijuncheng/blob/main/asset/logo.jpg)
+![LOGO](https://github.com/sunnyshijuncheng/Meta-PINN/blob/main/asset/logo.jpg)
 
 Reproducible material for **Meta learning for improved neural network wavefield solutions - Shijun Cheng and Tariq Alkhalifah**
 
