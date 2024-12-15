@@ -43,25 +43,27 @@ For meta-test, you can directly run:
 ```
 python metatest.py
 ```
-**Note:** When you run demo for meta-test, you need open the `metalrpinn/meta_test.py` file to specify the path for meta initialization model. Here, we have provided a meta-initialization model in supplementary file, you can directly load meta-initialization model to perform meta-test.
+**Note:** When you run demo for meta-test, you need open the `metapinn/metatest.py` file to specify the path for meta initialization model. Here, we have provided a meta-initialization model in supplementary file, you can directly load meta-initialization model to perform meta-test.
 
-If you need to compare with a randomly initialized network, you can comment out lines 52 in the `metalrpinn/meta_test.py` file as follows
-```
-# meta.load_state_dict(torch.load(dir_meta, map_location=device))
-```
+If you need to compare with a randomly initialized network, you can set the configuration value of `args.use_meta` in the `metapinn/metatest.py` file to `False`,
 and then run:
 ```
-sh run_metatest.sh
+python metatest.py
 ```
 
 **Note:** We emphasize that the training logs for meta-train and meta-test are saved in the `runs/metatrain` and `runs/metatest` file folder, respectively. You can use the `tensorboard --logdir=./` or extract the log to view the changes of the metrics as a function of epoch.
 
 **Disclaimer:** All experiments have been carried on a Intel(R) Xeon(R) CPU @ 2.10GHz equipped with a single NVIDIA GEForce A100 GPU. Different environment 
-configurations may be required for different combinations of workstation and GPU. Due to the high memory consumption during the meta training phase, if your graphics card does not support large batch task training, please reduce the configuration value of args (`args.ntask`) in the `metalrpinn/meta_train.py` file.
-
-**Disclaimer:** All experiments have been carried on a Intel(R) Xeon(R) CPU @ 2.10GHz equipped with a single NVIDIA GEForce RTX 3090 GPU. Different environment 
-configurations may be required for different combinations of workstation and GPU.
+configurations may be required for different combinations of workstation and GPU. Due to the high memory consumption during the meta training phase, if your graphics card does not support large batch task training, please reduce the configuration value of args (`args.update_step`) in the `metapinn/metatrain.py` file.
 
 ## Cite us 
-DWXXX - Author1 et al. (2022) Report title.
+```bibtex
+@article{cheng2024metapinn,
+  title={Meta learning for improved neural network wavefield solutions},
+  author={Cheng, Shijun and Alkhalifah, Tariq},
+  journal={Surveys in Geophysics},
+  pages={1--18},
+  year={2024},
+  publisher={Springer}
+}
 
