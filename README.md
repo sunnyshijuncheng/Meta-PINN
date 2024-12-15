@@ -5,7 +5,7 @@ Reproducible material for **Meta learning for improved neural network wavefield 
 # Project structure
 This repository is organized as follows:
 
-* :open_file_folder: **package**: python library containing routines for Meta-PINN;
+* :open_file_folder: **metapinn**: python library containing routines for Meta-PINN;
 * :open_file_folder: **asset**: folder containing logo;
 * :open_file_folder: **data**: folder to store dataset.
 
