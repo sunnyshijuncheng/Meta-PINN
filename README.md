@@ -1,6 +1,6 @@
 ![LOGO](https://github.com/DeepWave-Kaust/Project-Template/blob/main/asset/logo.png)
 
-Reproducible material for **XXX - Author M., Author M., Author C.**
+Reproducible material for **Meta learning for improved neural network wavefield solutions - Shijun Cheng and Tariq Alkhalifah**
 
 [Click here](https://kaust.sharepoint.com/:f:/r/sites/M365_Deepwave_Documents/Shared%20Documents/Restricted%20Area/DWxxxxxxxx) to access the Project Report. Authentication to the _Restricted Area_ filespace is required.
 
