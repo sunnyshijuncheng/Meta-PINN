@@ -4,15 +4,15 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - cudatoolkit=11.6.0
-  - numpy=1.23.5
-  - python=3.10.9
+  - numpy=1.26.4
+  - python=3.10.14
   - python_abi=3.10=3_cp310
-  - pytorch=1.12.0=py3.10_cuda11.6_cudnn8.3.2_0
   - matplotlib
-  - scipy=1.10.0
-  - torchaudio=0.12.0
-  - torchvision=0.13.0
+  - scipy=1.12.0
+  - pytorch=2.2.0
+  - cudatoolkit=11.6.0
+  - torchaudio=2.2.1
+  - torchvision=0.17.1
   - tqdm=4.64.1
   - pip=22.3.1
   - pip:
