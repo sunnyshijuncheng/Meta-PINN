@@ -11,7 +11,7 @@ echo 'Creating Package environment'
 conda env create -f environment.yml
 source ~/anaconda3/etc/profile.d/conda.sh 2>/dev/null || source ~/miniconda3/etc/profile.d/conda.sh
 
-conda activate my_env
+conda activate metapinn
 echo 'Created and activated environment:' $(which python)
 
 # Check torch OR tensorflow works as expected
