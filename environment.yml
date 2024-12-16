@@ -6,9 +6,9 @@ channels:
 dependencies:
   - cudatoolkit
   - numpy
-  - python=3.10
+  - python==3.10
   - python_abi
-  - pytorch=2.2.1
+  - pytorch==2.2.1
   - matplotlib
   - scipy
   - torchaudio
