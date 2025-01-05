@@ -62,12 +62,12 @@ configurations may be required for different combinations of workstation and GPU
 
 ## Cite us 
 ```bibtex
-@article{cheng2024metapinn,
+@article{cheng2025metapinn,
   title={Meta learning for improved neural network wavefield solutions},
   author={Cheng, Shijun and Alkhalifah, Tariq},
   journal={Surveys in Geophysics},
-  pages={1--18},
-  year={2024},
+  pages={1--23},
+  year={2025},
   publisher={Springer}
 }
 
