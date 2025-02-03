@@ -44,7 +44,7 @@ class RegLoss(nn.Module):
     def forward(self, x, z, sx, omega, m0, du_real, du_imag):
         """
         Regularization loss:
-        This loss seems to impose additional constraints or penalties on the predicted wavefields,
+        This loss impose additional constraints or penalties on the predicted wavefields,
         especially in regions defined by some factor (factor_d) related to the wave equation parameters.
 
         Inputs:
